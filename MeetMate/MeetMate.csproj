@@ -61,13 +61,26 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Remove="Views\EventPlannerPage.xaml" />
+	  <MauiXaml Remove="Views\RegisterPage.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Views\EventPlannerPage.xaml">
+	    <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Views\RegisterPage.xaml">
+	    <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="ViewModels\" />
 	  <Folder Include="Models\" />
 	</ItemGroup>
 

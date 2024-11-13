@@ -1,6 +1,7 @@
-﻿using Microsoft.Maui.Controls;
+﻿using MeetMate.ViewModels;
+using Microsoft.Maui.Controls;
 
-namespace MeetMate
+namespace MeetMate.Views
 {
     public partial class MainPage : ContentPage
     {
@@ -8,7 +9,7 @@ namespace MeetMate
         public MainPage()
         {
             InitializeComponent();
-            //BindingContext = new MainViewModel();
+            BindingContext = new MainViewModel();
         }
     }
 

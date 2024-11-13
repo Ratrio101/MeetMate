@@ -1,4 +1,6 @@
-﻿namespace MeetMate
+﻿using MeetMate.Views;
+
+namespace MeetMate
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
     }
 }

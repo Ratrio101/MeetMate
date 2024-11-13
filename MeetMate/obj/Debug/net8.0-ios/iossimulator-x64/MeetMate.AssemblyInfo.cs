@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MeetMate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ddcddf9da827d7e21cb9f60464e4237351d26b76")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2dbe903cd31b0fbf6cd1f6f2be1823f8e0a00dbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("MeetMate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MeetMate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
